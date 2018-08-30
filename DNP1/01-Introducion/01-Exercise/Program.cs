@@ -22,40 +22,41 @@ namespace Exercise
             
             
             // Exercise no.4 -> for(even), while(odd)
-            // for (int i = 0; i <= 100; i++)
-            //     Console.Write((i % 2 == 0) ? i + " ," : " ");
+            for (int i = 0; i <= 100; i++)
+                Console.Write((i % 2 == 0) ? i + " ," : " ");
            
-            // Console.WriteLine("");
+            Console.WriteLine("");
 
-            // int x = 0;
-            // while(x < 100)
-            //     Console.Write((++x % 2 != 0) ? x + " ," : " ");
+            int x = 0;
+            while(x < 100)
+                Console.Write((++x % 2 != 0) ? x + " ," : " ");
             
             // Exercise no.5 -> 0-10 switch
-           // var switch101 = new Switch101();
+            var switch101 = new Switch101();
 
-            // Exercise no.6
+            // Exercise no.6 -> calculator add method
             var calculator = new Calculator();
-            // Console.WriteLine(calculator.Add(31,11));
-            // Console.WriteLine(calculator.Add(new int[] {1,2,3}) + "\n");
+            Console.WriteLine(calculator.Add(31,11));
+            Console.WriteLine(calculator.Add(new int[] {1,2,3}) + "\n");
 
 
             // Exercise no.7 -> readline 2 numbers => max
-            //int a = Convert.ToInt32(Console.ReadLine());
-            //int b = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine((a > b) ? $"MAX: {a}" : (a < b) ? $"MAX: {b}" : "MAX: equals");
-            
-            // Exercise no.8
-            // Console.WriteLine(StringUtility.SumarizeText("This is short too long for this."));
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine((a > b) ? $"MAX: {a}" : (a < b) ? $"MAX: {b}" : "MAX: equals");
 
-            // Exercise no.9
-            // Exercise no.10
+            // Exercise no.8 -> reverse name - should ask from user
+            Console.WriteLine(StringUtility.Reverse("Natalie"));
+            
+            // Exercise no.9 -> sumarize text 
+            Console.WriteLine(StringUtility.SumarizeText("This is short too long for this."));
+
+            // Exercise no.10 -> calculator div,mul,sub
             Console.WriteLine(calculator.Div(4, 2));
             Console.WriteLine(calculator.Div(5, 0));
             Console.WriteLine(calculator.Mul(21, 2));
             Console.WriteLine(calculator.Sub(49, 7));
-
-
+            
         }
     }
 }
