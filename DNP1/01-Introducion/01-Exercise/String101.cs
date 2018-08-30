@@ -18,7 +18,6 @@ namespace ExerciseString{
          for(int i = 0; i < segmentedName.Length / 2; i++){
             tmp = segmentedName[i];
             segmentedName[i] = segmentedName[segmentedName.Length-i-1];
-            Console.WriteLine(segmentedName[segmentedName.Length-i-1]);
             segmentedName[segmentedName.Length-i-1] = tmp;
          }
 
