@@ -35,9 +35,9 @@ namespace Exercise
            // var switch101 = new Switch101();
 
             // Exercise no.6
-            // var calculator = new Calculator();
-            // Console.WriteLine(calculator.add(31,11));
-            // Console.WriteLine(calculator.add(new int[] {1,2,3}) + "\n");
+            var calculator = new Calculator();
+            // Console.WriteLine(calculator.Add(31,11));
+            // Console.WriteLine(calculator.Add(new int[] {1,2,3}) + "\n");
 
 
             // Exercise no.7 -> readline 2 numbers => max
@@ -46,10 +46,14 @@ namespace Exercise
             //Console.WriteLine((a > b) ? $"MAX: {a}" : (a < b) ? $"MAX: {b}" : "MAX: equals");
             
             // Exercise no.8
-            Console.WriteLine(StringUtility.sumarizeText("This is short too long for this."));
+            // Console.WriteLine(StringUtility.SumarizeText("This is short too long for this."));
 
             // Exercise no.9
             // Exercise no.10
+            Console.WriteLine(calculator.Div(4, 2));
+            Console.WriteLine(calculator.Div(5, 0));
+            Console.WriteLine(calculator.Mul(21, 2));
+            Console.WriteLine(calculator.Sub(49, 7));
 
 
         }
