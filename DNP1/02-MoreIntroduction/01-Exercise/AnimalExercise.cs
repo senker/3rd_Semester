@@ -4,7 +4,7 @@ using System;
 
 namespace AnimalsCollecion{
 
-   class Animal{
+   class Animal {
 
       private string type;
       private double weight;

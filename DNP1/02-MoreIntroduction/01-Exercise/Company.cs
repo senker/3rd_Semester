@@ -11,15 +11,18 @@ namespace CompanyExercise
    {
       IList employeeList;
 
-      public Company(){
+      public Company()
+      {
          employeeList = new List<Employee>();
       }
 
-      public void EmployNewEmplyee(Employee newEmployee){
+      public void EmployNewEmplyee(Employee newEmployee)
+      {
          employeeList.Add(newEmployee);
       }
 
-      public double GetMonthlySalatyTotal(){
+      public double GetMonthlySalatyTotal()
+      {
          double sum = 0.0;
          foreach (Employee employee in employeeList)
          {
@@ -68,8 +71,9 @@ namespace CompanyExercise
 
    }
 
-   class PartTimeStudent : PartTimeEmployee , IStudent {
-      
+   class PartTimeStudent : PartTimeEmployee, IStudent
+   {
+
       private int eduStart;
 
       public PartTimeStudent(string name, double hourlyWage, int hoursPerMonth, int eduStart) : base(name, hourlyWage, hoursPerMonth)

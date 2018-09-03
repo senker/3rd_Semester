@@ -18,6 +18,11 @@ namespace StudentNamespace {
          return "Hi, I am DNPStudent";
       }
 
+      // base => calls parents method
+      // public override string Hi(){
+      //    return base.Hi();
+      // }
+
    }
 
    interface IStudent{
