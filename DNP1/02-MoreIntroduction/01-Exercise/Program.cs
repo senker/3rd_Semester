@@ -1,6 +1,9 @@
 ﻿using System;
 using StudentNamespace;
 using CompanyExercise;
+using AnimalsCollecion;
+using System.Collections.Generic;
+using System.Collections;
 
 namespace Exercise
 {
@@ -48,7 +51,19 @@ namespace Exercise
             Console.WriteLine(company.GetMonthlySalatyTotal());
 
             // Exercise no.4 -> collections
-            
+            // a)
+            var animal01 = new Animal("dog", 5.3, 22);
+            var animal02 = new Animal("cat", 2.0, 15);
+            var animal03 = new Animal("chicken", 3.4, 18);
+            // b)
+            IList animalList = new List<Animal>();
+            animalList.Add(animal01);
+            animalList.Add(animal02);
+            animalList.Add(animal03);
+            foreach(Animal animal in animalList)
+                Console.WriteLine(animal.ToString());
+            // c) sort animals by wright
+
         }
     }
 }
