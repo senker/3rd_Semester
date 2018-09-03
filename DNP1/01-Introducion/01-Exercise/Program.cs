@@ -56,7 +56,7 @@ namespace Exercise
             Console.WriteLine(calculator.Div(5, 0));
             Console.WriteLine(calculator.Mul(21, 2));
             Console.WriteLine(calculator.Sub(49, 7));
-            
+
         }
     }
 }
