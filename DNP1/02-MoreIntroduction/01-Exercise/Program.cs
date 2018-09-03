@@ -1,12 +1,10 @@
 ﻿using System;
 using StudentNamespace;
 using CompanyExercise;
-<<<<<<< HEAD
+
 using AnimalsCollecion;
 using System.Collections.Generic;
 using System.Collections;
-=======
->>>>>>> 40bdd4e3361405614b1c40eec04318d96947ba4a
 
 namespace Exercise
 {
@@ -54,7 +52,6 @@ namespace Exercise
             Console.WriteLine(company.GetMonthlySalatyTotal());
 
             // Exercise no.4 -> collections
-<<<<<<< HEAD
             // a)
             var animal01 = new Animal("dog", 5.3, 22);
             var animal02 = new Animal("cat", 2.0, 15);
@@ -68,9 +65,6 @@ namespace Exercise
                 Console.WriteLine(animal.ToString());
             // c) sort animals by wright
 
-=======
-            
->>>>>>> 40bdd4e3361405614b1c40eec04318d96947ba4a
         }
     }
 }
