@@ -1,6 +1,7 @@
 ﻿using System;
 using StudentNamespace;
 using CompanyExercise;
+using PersonExercise;
 
 using AnimalsCollecion;
 using System.Collections.Generic;
@@ -63,8 +64,28 @@ namespace Exercise
          animalList.Add(animal03);
          foreach (Animal animal in animalList)
             Console.WriteLine(animal.ToString());
-         // c) sort animals by wright
+         // c) sort animals by weight
+         
+         // d) sort by speed
 
+         // Exercise no.5 -> namspaces
+         // more info in Circus01 & 02.cs
+
+         // Exercise no.6 -> Indexers
+         // pass
+         
+         // Exercise no.7 => dictionaries and properties
+         // create few ppl
+         var person01 = new Person("John", 26, 5);
+         var person02 = new Person("Dough", 31, 2);
+         var person03 = new Person("Mark", 19, 9);
+         // create dict and put ppl inside it
+         var nicknames = new Dictionary<string, Person>();
+         nicknames.Add("BabaYaga", person01);
+         nicknames.Add("McClain", person02);
+         nicknames.Add("Markie", person03);
+         // test dictionary
+         Console.WriteLine(nicknames[key: "BabaYaga"].Name);
       }
    }
 }
