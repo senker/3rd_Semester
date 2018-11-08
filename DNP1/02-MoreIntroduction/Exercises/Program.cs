@@ -7,7 +7,7 @@ using AnimalsCollecion;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace Exercise
+namespace Exercises
 {
    class Program
    {
