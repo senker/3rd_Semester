@@ -12,9 +12,9 @@
 
 **Exercises**
 
-  - [x] Completed
+  - [] Completed
 
-[HERE](https://github.com/R0b1S/3rd_Semester/tree/master/DNP1/01-Introducion/Exercises)
+[HERE](https://github.com/R0b1S/3rd_Semester/tree/master/DNP1/02-MoreIntroduction/Exercises)
 
 ---
 Made by: R0b1S
