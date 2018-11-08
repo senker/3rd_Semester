@@ -18,7 +18,7 @@ namespace Exercise
             
             // Exercise no.3 -> person class (new file), Introduce method
             var person = new Person("Natalie");
-            Console.WriteLine(person.Introduce() + "\n");
+            Console.WriteLine(person.Introduce() + "\n" + "\n");
             
             
             // Exercise no.4 -> for(even), while(odd)
@@ -37,19 +37,20 @@ namespace Exercise
             // Exercise no.6 -> calculator add method
             var calculator = new Calculator();
             Console.WriteLine(calculator.Add(31,11));
-            Console.WriteLine(calculator.Add(new int[] {1,2,3}) + "\n");
+            Console.WriteLine(calculator.Add(new int[] {1,2,3}) + "\n" + "\n");
 
 
             // Exercise no.7 -> readline 2 numbers => max
+            Console.WriteLine(StringUtility.Reverse("Insert 2x int ->"));
             int a = Convert.ToInt32(Console.ReadLine());
             int b = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine((a > b) ? $"MAX: {a}" : (a < b) ? $"MAX: {b}" : "MAX: equals");
+            Console.WriteLine((a > b) ? $"MAX: {a}" : (a < b) ? $"MAX: {b}" : "MAX: equals"  + "\n");
 
             // Exercise no.8 -> reverse name - should ask from user
             Console.WriteLine(StringUtility.Reverse("Natalie"));
             
             // Exercise no.9 -> sumarize text 
-            Console.WriteLine(StringUtility.SumarizeText("This is short too long for this."));
+            Console.WriteLine(StringUtility.SumarizeText("This is short too long for this."  + "\n"));
 
             // Exercise no.10 -> calculator div,mul,sub
             Console.WriteLine(calculator.Div(4, 2));
