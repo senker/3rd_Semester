@@ -18,8 +18,10 @@ The goal of the project is to optimize the power consumption so the power is not
 ### Diagrams
 **Switch between sensors/Pushed button**
 ![push_button_smd](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/button_push_smd.png)
+
 **Motion sensor**
 ![motion_sensor_smd](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/motion_sensor_smd.png)
+
 **Light sensor**
 ![light_sensor_smd](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/light_sensor_smd.png)
 
