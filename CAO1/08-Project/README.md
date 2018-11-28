@@ -17,17 +17,17 @@ The goal of the project is to optimize the power consumption so the power is not
 ---
 ### Diagrams
 **Switch between sensors/Pushed button**
-![push_button_smd](/appendix/button_push_smd.png)
+![push_button_smd](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/button_push_smd.png)
 **Motion sensor**
-![motion_sensor_smd](/appendix/motion_sensor_smd.png)
+![motion_sensor_smd](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/motion_sensor_smd.png)
 **Light sensor**
-![light_sensor_smd](/appendix/light_sensor_smd.png)
+![light_sensor_smd](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/light_sensor_smd.png)
 
 ---
 
 ##Circuit diagram
 Diagram consists 1 motion sensor, 1 light sensor, 1 LED (light bulb - relay needed), 1 button, 2 resistors. User choose sensor by pressing button. LED lights based on values from sensors.
 
-![circuit_diagram](/appendix/circuit_diagram.png)
+![circuit_diagram](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/circuit_diagram.png)
 
 ---
