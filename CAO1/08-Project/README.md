@@ -2,10 +2,10 @@
 
 **Authors:**
    - [Robert Misura (269381)](github.com/R0b1S)
-   - Ainis Skominas
-   - Mihai Barbus
-   - Aleksandr Zorin
-   - Vladimir Rotaru
+   - Ainis Skominas (266756)
+   - Mihai Barbus (267082)
+   - Aleksandr Zorin (224493)
+   - Vladimir Rotaru (266914)
 ---
 
 ## Problem formulation
@@ -17,7 +17,7 @@ The goal of the project is to optimize the power consumption so the power is not
 ---
 ### Diagrams
 
-**Switch between sensors/Pushed button**
+**Switch between sensor/Pushed button**
 
 ![push_button_smd](https://github.com/R0b1S/3rd_Semester/blob/master/CAO1/08-Project/appendix/button_push_smd.png)
 
